@@ -1,0 +1,60 @@
+/* Nav Header Section */
+
+.navbar {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    background: navy;
+    overflow: hidden;   
+}
+
+.nav {
+    list-style-type: none;
+    clear: left;
+}
+
+#nav li {
+    display: inline-block;
+    
+}
+
+#nav li a {
+    padding: 1em 1em;
+    color: white;
+    text-decoration: none;
+}
+
+#brand-icon {
+    float: left;
+    border: 1px solid white;
+    border-radius: 5px;
+    margin: .5em;
+}
+
+/* Main Section */
+
+.main-content {
+    padding-top: 3em;
+    padding-bottom: 3em;
+    width: 90%;
+    margin: 3em auto;
+
+}
+
+/* Footer Section */
+
+.footer {
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    background: navy;
+}
+
+#footer-content {
+    text-align: center;
+    color: white;
+    margin: 0 auto;
+}
+
+
+
