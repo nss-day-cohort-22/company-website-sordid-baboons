@@ -14,7 +14,7 @@ let theComeUp = {
 let whereWeAreNow = {
     "one": "The Future is Limitless",
     "two": "Our company's rich history is seasoned with tales of heroism and adventure. We are as much a family as we are profiteering animal smugglers.",
-    "three": "Our business models still thrives. We are commited to leading our industry in both innovation and performance."
+    "three": "Our business model still thrives. We are committed to leading our industry in both innovation and performance."
 }
 
 
