@@ -35,6 +35,7 @@ const retail_2 = {
   "location_url": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1619.572415771258!2d139.74037161243473!3d35.72265644603204!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x60188da54126bd99%3A0x5c5a95ee3011f10b!2zSmFwYW4sIOOAkjExMi0wMDExIFTFjWt5xY0tdG8sIEJ1bmt5xY0ta3UsIFNlbmdva3UsIDIgQ2hvbWXiiJIxMeKIkjksIOOCpOODs-ODmuODquOCouODq-OCrOODvOODh-ODsw!5e0!3m2!1sen!2sus!4v1507818467605"
 };
 
+//adding locations to a single array
 const locationList = [];
 
 locationList.push(headquarters, retail_1, retail_2);

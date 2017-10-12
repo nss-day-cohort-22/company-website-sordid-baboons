@@ -1,7 +1,8 @@
+//pull location array from local storage
 const storedLocations = JSON.parse(localStorage.getItem("locations"));
 const locationEl = document.getElementById("location");
 
-
+//loop through location array and add each location into the HTML
 for (let i = 0; i < storedLocations.length; i++) {
     let location = storedLocations[i];
     
@@ -15,6 +16,7 @@ for (let i = 0; i < storedLocations.length; i++) {
     `
 }
 
+//add email and fax information to Contact Us section of the HTML. This information is in the Headquarters object
 const contactEl = document.getElementById("contact-us");
 
 contactEl.innerHTML += `
