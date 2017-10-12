@@ -7,7 +7,7 @@ let theBeggining = {
 
 let theComeUp = {
     "one": "In the mid 1990's we developed a flawless business model",
-    "two": "We executed that business model, and we became freaking <strong>millionares</strong>. People got <i>really</i> upset we became millionaires by selling rare and endangered animals.",
+    "two": "We executed that business model, and we became freaking <strong>millionaires</strong>. People got <i>really</i> upset we became millionaires by selling rare and endangered animals.",
     "three": "We talked it out with the cops and PETA, and everything is cool now."
 }
 
