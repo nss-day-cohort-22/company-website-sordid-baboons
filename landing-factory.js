@@ -20,6 +20,13 @@ const landingPagePics = [
     }
 ]
 
+const coupons = [
+    {
+        name: "New NFL Contract Special",
+        text: "30% Off "
+    }
+] 
+
 const picsDB = {//object to be sent to browser storage
     "pics": landingPagePics
 }
