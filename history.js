@@ -1,3 +1,4 @@
+
 let theBeggining = {
     "one": "<center>Where did the <i>Circle of Life</i> begin?</center>",
     "two": "Many companies start away from the eye of public. However, our story began during an event considered historic and magical by many present day scholars. You may know it as that scene in <i>The Lion King</i> where Rafiki holds up baby Simba on top of the rock.",
@@ -12,7 +13,7 @@ let theComeUp = {
 
 let whereWeAreNow = {
     "one": "The Future is Limitless",
-    "two": "Our companies rich history is seasoned with tales of heroism and adventure. We are as much a family as we are profiteering animal smugglers.",
+    "two": "Our company's rich history is seasoned with tales of heroism and adventure. We are as much a family as we are profiteering animal smugglers.",
     "three": "Our business models still thrives. We are commited to leading our industry in both innovation and performance."
 }
 
@@ -24,4 +25,3 @@ let ourHistory = {
 
 let companyHistory = JSON.stringify(ourHistory)
 localStorage.setItem("companyHistory", companyHistory)
-
