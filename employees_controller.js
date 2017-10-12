@@ -13,6 +13,7 @@ for (let i = 0; i < storedEmpList.length; i++) {
 		<p class="position"> Position:  ${employee.position}</p>
 		<p class="salary"> Salary:  ${employee.salary}</p>
 	</section>
+	<hr align="left">
 	`
 }
 
