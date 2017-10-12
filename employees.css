@@ -1,3 +1,12 @@
+#headerImg {
+	display: inline-block;
+	height: 145px;
+	width: 400px;
+}
+
+#titleOfPage{
+	display: inline-block;
+}
 hr{
 	border-color: #a01913;
 	
