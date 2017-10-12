@@ -1,0 +1,81 @@
+/* Nav Header Section */
+body {
+    background-image: url("https://images.pexels.com/photos/59873/elephant-elephants-tanzania-safari-59873.jpeg?w=1260&h=750&auto=compress&cs=tinysrgb");
+    background-repeat: no-repeat no-repeat;
+    background-attachment: fixed;
+    background-position: center; 
+    background-size: cover;
+}
+.navbar {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    background: #721707;
+    overflow: hidden; 
+    box-shadow: 1px 5px 5px black;  
+}
+
+.nav {
+    list-style-type: none;
+    display: inline;
+}
+
+#nav li {
+    display: inline;
+    clear: left;    
+}
+
+#nav li a {
+    padding: 1em 1em;
+    color: white;
+    text-decoration: none;
+}
+ #brand {
+     text-align: center;
+     background-color: #FFE400;
+     border-radius: 25px;
+     padding: .5em;
+     margin-right: 1em;
+     float: left;
+ }
+
+/* Main Section */
+
+.main-content {
+    padding: 1em;
+    width: 90%;
+    margin: 4em auto;
+    background-color: #FFEE84;
+    border-radius: 5px;
+    box-shadow: 10px 5px 5px black;
+}
+
+/* Footer Section */
+
+.footer {
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    background: #721707;
+    overflow: hidden;  
+    box-shadow: -1px 0 5px black; 
+    
+}
+
+#footer-content {
+    text-align: center;
+    color: white;
+    margin: 0 auto;
+    padding-top: .25em;
+    padding-bottom: .25em;
+    font-size: .75em;
+}
+
+/* clearfix  */
+
+.clearfix:after {
+    content:" ";
+    display:table;
+    clear:both;
+}
+
