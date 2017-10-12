@@ -12,7 +12,7 @@ for (let i = 0; i < inventory.length; i++) {
     let currentAnimal = inventory[i];
 
     
-
+//pushing html to the dom
     animalElement.innerHTML += 
         `<h2>${currentAnimal.name}</h2>
         <img src=${currentAnimal.img} class="img">
