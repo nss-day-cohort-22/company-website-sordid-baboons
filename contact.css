@@ -1,0 +1,25 @@
+/* additional formatting for Contact Page */
+
+#contact-us {
+    float: right;
+    margin-right: 200px;
+}
+
+.contact-image {
+    border-radius: 50%;
+    height: 200px;
+}
+
+#contact-us h1 {
+    font-size: 1.5em;
+    margin-bottom: .5em;
+}
+
+.location-headquarters {
+    text-align: center;
+}
+.location-retail {
+    width: 50%;
+    float: left;
+    overflow: hidden;
+}
