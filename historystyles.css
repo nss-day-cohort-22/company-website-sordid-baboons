@@ -6,7 +6,7 @@
     width: 100%;
     background: #721707;
     overflow: hidden; 
-    box-shadow: 1px 5px 5px grey;  
+    box-shadow: 1px 5px 5px black;  
 }
 
 .nav {
@@ -35,13 +35,39 @@
 
 /* Main Section */
 
+body {
+    background-image: url("https://images.pexels.com/photos/59873/elephant-elephants-tanzania-safari-59873.jpeg?w=1260&h=750&auto=compress&cs=tinysrgb");
+    background-repeat: no-repeat no-repeat;
+    background-attachment: fixed;
+    background-position: center; 
+    background-size: cover;
+}
+
 .main-content {
     padding: 1em;
     width: 90%;
     margin: 4em auto;
     background-color: #FFEE84;
     border-radius: 5px;
-    box-shadow: 10px 5px 5px grey;
+    box-shadow: 10px 5px 5px black;
+}
+
+h1 {
+    text-align: center;
+    border: 2px solid #721707;
+    padding: .3em;
+    
+}
+
+.histLi {
+    margin: 1em;
+    list-style: square;
+    font-size: 1.2em;
+}
+
+.pics {
+    max-height: 250px;
+    max-width: 250px;
 }
 
 /* Footer Section */
@@ -69,12 +95,4 @@
     content:" ";
     display:table;
     clear:both;
-}
-
-/* *******  Products Section Formatting */
-.img {
-    border-radius: 50%;
-    display: block;
-    margin: auto;
-    width: 30%;
 }
