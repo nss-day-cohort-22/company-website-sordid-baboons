@@ -1,6 +1,6 @@
-const empList = []
+const empList = []  //The list of employees that will be stored in local storage
 
-
+// This function adds an employee object in to the array empList
 function newEmp(emp) {
 	const newEmployee = {
 		"name": emp.name,
@@ -11,7 +11,10 @@ function newEmp(emp) {
 	empList.push(newEmployee)
 }
 
-newEmp(
+//////////////////////////////////////////////////////////////////////////////////////////
+//A series of calls to the newEmp function that with an employee's information////////////
+//////////////////////////////////////////////////////////////////////////////////////////
+newEmp( //Passes in an object with an employee's informations
 	{
 		"name": "Sean",
 		"alias": "Red Bottom Bad Boon",
@@ -19,7 +22,7 @@ newEmp(
 		"position": "Power Bottom"
 	}
 )
-newEmp(
+newEmp( //Passes in an object with an employee's informations
 	{
 		"name": "Max",
 		"alias": "Paul Pink Buns-yun",
@@ -27,7 +30,7 @@ newEmp(
 		"position": "Slightly to the left"
 	}
 )
-newEmp(
+newEmp( //Passes in an object with an employee's informations
 	{
 		"name": "Garrett",
 		"alias": "Pink Mooner",
@@ -35,7 +38,7 @@ newEmp(
 		"position": "Top of the World"
 	}
 )
-newEmp(
+newEmp( //Passes in an object with an employee's informations
 	{
 		"name": "Kristen",
 		"alias": "Gwen Stefani",
@@ -43,7 +46,7 @@ newEmp(
 		"position": "One up and three over"
 	}
 )
-newEmp(
+newEmp( //Passes in an object with an employee's informations
 	{
 		"name": "Paul",
 		"alias": "Buttis Balding",
@@ -51,7 +54,7 @@ newEmp(
 		"position": "Like EVERYWHERE"
 	}
 )
-newEmp(
+newEmp( //Passes in an object with an employee's informations
 	{
 		"name": "George",
 		"alias": "The Curious",
@@ -60,6 +63,6 @@ newEmp(
 	}
 )
 
-
+//Stringify the list of employees and store that in local storage
 const employeeList = JSON.stringify(empList)
 localStorage.setItem("employeeList", employeeList)

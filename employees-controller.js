@@ -1,9 +1,13 @@
+//Pull the list of employee information from local storage and store it in an array
 const storedEmpList = JSON.parse(localStorage.getItem("employeeList"))
 
+
+//Get the HTML Element that will contain the list of employees
 const employeeListElement = document.getElementById("empInformation")
 
-const employeeElement = document.getElementsByClassName("employee")
 
+
+//This loop iterates over storedEmpList and writes to the DOM with the information from each employee element in the array
 for (let i = 0; i < storedEmpList.length; i++) {
 	let employee = storedEmpList[i];
 
@@ -17,6 +21,7 @@ for (let i = 0; i < storedEmpList.length; i++) {
 	`
 }
 
+//Adds a button at the bottom of the page that links to jobs.html
 employeeListElement.innerHTML += `
 
 <button type="button" onclick="location.href='job.html';">Search Job Listings</button>`

@@ -71,8 +71,11 @@ body {
     font-size: .75em;
 }
 
+/* clearfix  */
+
 .clearfix:after {
     content:" ";
     display:table;
     clear:both;
 }
+
