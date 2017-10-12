@@ -6,7 +6,7 @@
     width: 100%;
     background: #721707;
     overflow: hidden; 
-    box-shadow: 1px 5px 5px grey;  
+    box-shadow: 1px 5px 5px black;  
 }
 
 .nav {
@@ -41,7 +41,7 @@
     margin: 4em auto;
     background-color: #FFEE84;
     border-radius: 5px;
-    box-shadow: 10px 5px 5px grey;
+    box-shadow: 10px 5px 5px black;
 }
 
 h1 {
@@ -70,7 +70,7 @@ h1 {
     width: 100%;
     background: #721707;
     overflow: hidden;  
-    box-shadow: -1px 0 5px grey; 
+    box-shadow: -1px 0 5px black; 
     
 }
 
