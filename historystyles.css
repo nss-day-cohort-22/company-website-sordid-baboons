@@ -44,11 +44,18 @@
     box-shadow: 10px 5px 5px black;
 }
 
-h1 {
+h2 {
     text-align: center;
     border: 2px solid #721707;
     padding: .3em;
     
+}
+
+h1 {
+    text-align: center;
+    border: 2px solid #721707;
+    padding: .24em;
+    font-size: 2.5em;
 }
 
 .histLi {

@@ -8,7 +8,7 @@ for (key in compHist) {
     for (let i = 0; i < currentProp.length; i++) {
         let currentHist = currentProp[i]
         console.log(currentHist)
-        histLocation.innerHTML += `<h1>${currentHist.one}</h1>
+        histLocation.innerHTML += `<h2>${currentHist.one}</h2>
         <ul class="histUl"><li class="histLi">${currentHist.two}</li>
         <li class="histLi">${currentHist.three}</li></ul>`
         
