@@ -20,16 +20,24 @@ const landingPagePics = [
     }
 ]
 
-const coupons = [
+const coupons = [//coupons array of objects
     {
         name: "New NFL Contract Special",
-        text: "30% Off "
+        text: "30% Off for Newly Signed NFL Players ",
+        subtext: "Because there's no way you'll ever go broke"
     }
-] 
+];
+
+const couponsDB = {//coupons to be sent to storage
+    "coupon": coupons
+};
 
 const picsDB = {//object to be sent to browser storage
     "pics": landingPagePics
-}
+};
+
+const couponsDBstring = JSON.stringify(couponsDB); //converts object to string for storage
+localStorage.setItem("couponsDataBase", couponsDBstring); //push to storage
 
 const picsDBstring = JSON.stringify(picsDB); //converts object to string for storage
 localStorage.setItem("picsDataBase", picsDBstring); //push to storage
