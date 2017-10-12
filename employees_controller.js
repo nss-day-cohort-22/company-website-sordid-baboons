@@ -15,3 +15,7 @@ for (let i = 0; i < storedEmpList.length; i++) {
 	</section>
 	`
 }
+
+employeeListElement.innerHTML += `
+
+<button type="button" onclick="location.href='job.html';">Search Job Listings</button>`
