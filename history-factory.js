@@ -1,3 +1,4 @@
+/* objects to store history data*/
 
 let theBeggining = {
     "one": "<center>Where did the <i>Circle of Life</i> begin?</center>",
@@ -17,11 +18,13 @@ let whereWeAreNow = {
     "three": "Our business model still thrives. We are commited to leading our industry in both innovation and performance."
 }
 
+/* store those objects into an array inside of another object*/
 
 let ourHistory = {
     "history": [theBeggining, theComeUp, whereWeAreNow]
 }
 
+/*store the object to local storage after stringifying it with JSON*/
 
 let companyHistory = JSON.stringify(ourHistory)
 localStorage.setItem("companyHistory", companyHistory)
