@@ -1,0 +1,26 @@
+#headerImg {
+	display: inline-block;
+	height: 145px;
+	width: 400px;
+}
+
+#titleOfPage{
+	display: inline-block;
+}
+hr{
+	border-color: #a01913;
+	
+}
+section + hr {
+	width: 45%;
+}
+
+.employee p{
+	margin: 0
+}
+
+button {
+	margin-top: 2em;
+	font-size: 16pt;
+	background-color: #d88b0a
+}
