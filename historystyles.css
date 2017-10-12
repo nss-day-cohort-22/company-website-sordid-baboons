@@ -1,0 +1,90 @@
+/* Nav Header Section */
+
+.navbar {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    background: #721707;
+    overflow: hidden; 
+    box-shadow: 1px 5px 5px grey;  
+}
+
+.nav {
+    list-style-type: none;
+    display: inline;
+}
+
+#nav li {
+    display: inline;
+    clear: left;    
+}
+
+#nav li a {
+    padding: 1em 1em;
+    color: white;
+    text-decoration: none;
+}
+ #brand {
+     text-align: center;
+     background-color: #FFE400;
+     border-radius: 25px;
+     padding: .5em;
+     margin-right: 1em;
+     float: left;
+ }
+
+/* Main Section */
+
+.main-content {
+    padding: 1em;
+    width: 90%;
+    margin: 4em auto;
+    background-color: #FFEE84;
+    border-radius: 5px;
+    box-shadow: 10px 5px 5px grey;
+}
+
+h1 {
+    text-align: center;
+    border: 2px solid #721707;
+    padding: .3em;
+    
+}
+
+.histLi {
+    margin: 1em;
+    list-style: square;
+    font-size: 1.2em;
+}
+
+.pics {
+    max-height: 250px;
+    max-width: 250px;
+}
+
+/* Footer Section */
+
+.footer {
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    background: #721707;
+    overflow: hidden;  
+    box-shadow: -1px 0 5px grey; 
+    
+}
+
+#footer-content {
+    text-align: center;
+    color: white;
+    margin: 0 auto;
+    padding-top: .25em;
+    padding-bottom: .25em;
+    font-size: .75em;
+}
+
+.clearfix:after {
+    content:" ";
+    display:table;
+    clear:both;
+}
