@@ -5,17 +5,17 @@ const home = {
 }
 
 const products = {
-    'name' : 'Producs',
-    'link' : "./index.html"
+    'name' : 'Products',
+    'link' : "./products.html"
 }
 
 const contact = {
-    'name' : 'contact',
+    'name' : 'Contact',
     'link' : "./contact.html"
 }
 
 const employees = {
-    'name' : 'employees',
+    'name' : 'Employment',
     'link' : "./employees.html"
 }
 
@@ -24,3 +24,7 @@ const navBar = [];
 
 //create array of objects into navBar
 navBar.push(home, products, contact, employees);
+
+//pushing to local storage
+const navBarString = JSON.stringify(navBar);
+localStorage.setItem("navBar", navBarString);
