@@ -5,7 +5,7 @@ let landingHTML = document.getElementById("landing"); //target area to send HTML
 
 
 
-let addHTML = function() {
+let addHTML = function() {//writes HMTL to targeted area
 let randomObject = retrievedPicsDB.pics[Math.ceil((Math.random() * retrievedPicsDB.pics.length) - 1)];//returnes one of the three image objects 
 let randomCoupon = retrievedCouponsDB.coupon[Math.ceil((Math.random() * retrievedCouponsDB.coupon.length) - 1)];//returnes one of the coupon objects
 
@@ -31,7 +31,7 @@ let randomCoupon = retrievedCouponsDB.coupon[Math.ceil((Math.random() * retrieve
           `;
 }
 
-addHTML();
-window.setInterval(addHTML, 8000);
+addHTML();//writes initial HTML without the 8 sec period that will start below -- otherwise you'll be waiting 8 sec when the page loads
+window.setInterval(addHTML, 8000);//rewrites targeted HTML with randomly calculated object information from the DB every 8 sec
 
 

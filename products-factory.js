@@ -1,5 +1,5 @@
 
-
+//create database of products
     const pygmyElephant = {
         'name' : 'Borneo Pygmy Elephant',
         'species' : 'Elephas maximus borneensis',
@@ -32,12 +32,17 @@
         'img' : "https://c402277.ssl.cf1.rackcdn.com/photos/2260/images/story_full_width/Amur-Leopard_08.23.2012_Help.jpg?1345726333"
     }
 
+//created an empty array to store objects for inventory
 const inventory = []
 
+//pushed all the objects into the inventory array
 inventory.push(pygmyElephant, vaquita, demagorgon, amur);
 
-console.log(inventory); 
-console.log(amur);
+//testing array and objects......
+// console.log(inventory); 
+// console.log(amur);
 
+//created variable with stringified inventory to be stored on local storage
 const inventoryString = JSON.stringify(inventory);
+//stored stringified inventory on local storage and named it "inventory"
 localStorage.setItem("inventory", inventoryString);
