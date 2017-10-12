@@ -39,7 +39,7 @@ newEmp(
 	{
 		"name": "Kristen",
 		"alias": "Gwen Stefani",
-		"salary": "B-A-N-A-N-A-S",
+		"salary": "It's bananas! B-A-N-A-N-A-S",
 		"position": "One up and three over"
 	}
 )
