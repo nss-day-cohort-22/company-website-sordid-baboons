@@ -15,12 +15,18 @@ let landingHTML = document.getElementById("landing"); //target area to send HTML
 //         `
 //     }
 // }
-let randomObject = retrievedPicsDB.pics[Math.ceil((Math.random() * retrievedPicsDB.pics.length) - 1)];//returnes one of the three image objects when the page is refreshed
-landingHTML.innerHTML += `
-        <section class="imageCard">
-           <h3 class="picsH1">${randomObject.animal}</h3>
-           <img class="celebImg" src="${randomObject.picURL}" alt="${randomObject.alt}" height="100" width="150">
-           <figcaption class="celebCaption">${randomObject.caption}</figcaption>
 
-       </section>
-         `;
+let addHTML = function() {
+  let randomObject = retrievedPicsDB.pics[Math.ceil((Math.random() * retrievedPicsDB.pics.length) - 1)];//returnes one of the three image objects when the page is refreshed
+  landingHTML.innerHTML = `
+  <section class="imageCard">
+      <h3 class="picsH1">${randomObject.animal}</h3>
+      <img class="celebImg" src="${randomObject.picURL}" alt="${randomObject.alt}" height="100" width="150">
+      <figcaption class="celebCaption">${randomObject.caption}</figcaption>
+  </section>
+          `;
+}
+
+window.setInterval(addHTML, 8000);
+
+
