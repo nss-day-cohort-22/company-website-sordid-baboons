@@ -9,6 +9,11 @@ const products = {
     'link' : "./products.html"
 }
 
+const history = {
+    'name' : 'History',
+    'link' : "./history.html"
+}
+
 const contact = {
     'name' : 'Contact',
     'link' : "./contact.html"
@@ -23,7 +28,7 @@ const employees = {
 const navBar = [];
 
 //create array of objects into navBar
-navBar.push(home, products, contact, employees);
+navBar.push(home, products, history, contact, employees);
 
 //pushing to local storage
 const navBarString = JSON.stringify(navBar);
